@@ -1,0 +1,66 @@
+[
+    {
+        "image": "../images/artic char.png",
+         "name": "artic char"
+    },
+    {
+        "image": "../images/atlantic salmon.png",
+        "name": "atlantic salmon"
+    },
+    {
+        "image": "../images/bream.png",
+        "name": "bream"
+    },
+    {
+        "image": "../images/brown trout.png",
+        "name": "brown trout"
+    },
+    {
+        "image": "../images/carp.png",
+        "name": "carp"
+    },
+    {
+        "image": "../images/dace.png",
+        "name": "dace"
+    },
+    {
+        "image": "../images/eel.png",
+        "name": "eel"
+    },
+    {
+        "image": "../images/gudgeon.png",
+        "name": "gudgeon"
+    },
+    {
+        "image": "../images/perch.png",
+        "name": "perch"
+    },
+    {
+        "image": "../images/pike.png",
+        "name": "pike"
+    },
+    {
+        "image": "../images/river lamprey.png",
+        "name": "river lamprey"
+    },
+    {
+        "image": "../images/roach.png",
+        "name": "roach"
+    },
+    {
+        "image": "../images/rudd.png",
+        "name": "rudd"
+    },
+    {
+        "image": "../images/sea trout.png",
+        "name": "sea trout"
+    },
+    {
+        "image": "../images/stone loach.png",
+        "name": "stone loach"
+    },
+    {
+        "image": "../images/tench.png",
+        "name": "tench"
+    }
+]
