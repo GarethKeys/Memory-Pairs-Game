@@ -20,13 +20,13 @@
 .cards {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2.0em;
+    grid-gap: 2.0em;
 }
 
 .card {
     border-radius: 0px;
     display: grid;
-    background-color: white;
+    background-color: rgb(43, 214, 226);
     cursor: pointer;
     transition: 0.3s all ease;
 }
