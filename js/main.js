@@ -1,20 +1,27 @@
 let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
+let score = 0;
+
+document.querySelector(".score").textContent = score;
 
 
 const cards = document.querySelectorAll(".cards .card");
+
 cards.forEach((card) => {
     card.addEventListener("click", () => {
         card.classList.add("clicked");
 
-
         if (counter=== 0) {
             firstSelection = card.getAttribute("fish");
             counter++;
+            score++;
+            document.querySelector(".score").textContent = score;
          } else {
             secondSelection = card.getAttribute("fish");
             counter = 0;
+            score++;
+            document.querySelector(".score").textContent = score;
 
             if(firstSelection === secondSelection) {
                 const correctCards = document.querySelectorAll(
@@ -39,7 +46,10 @@ cards.forEach((card) => {
                 }, 1000);
             }
          }
-
+        
         
     });
+   
+  
+
 });
