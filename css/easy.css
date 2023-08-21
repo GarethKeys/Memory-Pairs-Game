@@ -10,10 +10,20 @@
     background-color: rgba(136, 127, 127, 0.685);
 }
 
+.navbar {
+    text-align: center;
+    color: rgb(68, 211, 221);
+    font-family: Arial, Helvetica, sans-serif, ;
+    text-decoration:underline;
+    font-size: 2rem;
+    font-weight: 350; 
+}
+
 .heading {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif, ;
-    font-size: 2rem;
+    text-decoration: underline;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -36,8 +46,8 @@
 }
 
 .card img {
-    width: 165px;
-    height: 80%;
+    width: 200px;
+    height: 90%;
     border-radius: 30px;
     align-items: center;
     opacity: 0;
