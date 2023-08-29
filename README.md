@@ -5,7 +5,9 @@ This is a game I have created in order to showcase the Frontend developer and Ja
 ## UX
 ***
 
-My game is for all ages and genders to enjoy. I have allowed colour pairs to be matched as well as the fish species pairs. These include pictures of the fish as well as the name of the various species. The aim is to teach the gamer about the various fish species while also having some fun testing their memory. I have included multiple methods of contact into the footer of each page the hope of attracting some communication if there is an interest in the game and my skills showcase.
+My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty to enhance the gaming experience for each user. 
+
+I have included multiple methods of contact into the footer of each page the hope of attracting some communication if there is an interest in the game and my coding skills showcase.
 
 The style and layout of the game is kept simple with 3 different main layout colours. This is to prevent distraction from the cards and the imagery on the cards.
 
@@ -14,13 +16,10 @@ The style and layout of the game is kept simple with 3 different main layout col
 
 ### All Pages
 
-- **Background Image**: Stunning scenic background image of beautiful mountains, crisp calm water and reflections of light. I believe this image is an eye-catcher and a thought provoker which I feel my websites will be in the future. I want the visitor to be transported to a happy place while also learning a bit about me and my skillset along the way. Life and nature are very important to me, so I wanted to capture that in my website.
-- **Vertical Navigation Bar**: I chose the vertical navigation option as It seemed most portfolio websites I studied used the standard horizontal bar at the top of the screen. I am aiming to get the point across I like to think outside the box and am not afraid to challenge myself to make a design different and standout from the rest. The Navigation bar is to the extreme left of the screen on larger devices, so as not to block or take away from the background image. I have also styled the Navbar to be transparent and allow the user to still see the background image. The navigation links within allow the user to move between pages on the website.
-- **Collapsible Navbar**: On smaller devices below width 768px the navigation bar will collapse to a toggle button on the top right of the screen. This responsiveness allows the user to still have full view of the background image and full access to the navbar on smaller devices.
-- **G.K. icon image**: I added an image at the top of the navbar with my initials and activated it to be clickable. When clicked from any page within the website it will return the user to the home page.
-- **Mask applied behind text**: I have added a mask behind the text on each page to allow the text to stand out from the background image and be easily read. The colour styling of the text was also chosen to pop out from the colouring of the background image, but remain subtle enough to blend in with the overall theme.
+- **Page Styling**: I have styled each page in black, grey and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamer with too many colours.
+- **Horizontal Navigation Bar**: I chose the horizontal navigation option to allow the gamer easy control of the page at all times. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar to be a slightly darker grey than the page, so it blends in enough but also stands out when needed. The navigation links within allow the user to move between pages on the website.
+- **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top right of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
 - **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to make contact with me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
-- **Contact me link**: I added an active link at the bottom of the footer on each page which opens a new window to send me an email and make contact if desired. This is an extra point of contact added to draw the visitor into reaching out to me and making contact.
 
 ### index.html
 - This is very much a welcome screen for the user. The aim here is to welcome the visitor and provide a very brief description of who I am and where I am currently based. I also encourage the visitor to make contact if they are impressed by the setup of the website.
