@@ -1,47 +1,52 @@
 # Memory-Pairs-Game
 
-This is a game I have created in order to showcase the Frontend developer and Javascript skills I have learned to date through the online Learning People Full Stack Developer course. My game is used to test the players memory by matching pairs whilst also educating them on the various freshwater fish species currently inhabiting the waterways of Ireland. I have added matching colours to the pairs to simplify the game for the younger generation of player.
+This is a game I have created to showcase the Frontend developer and Javascript skills I have learned to date through the online Learning People Full Stack Developer course. My game is used to test the players memory by matching pairs whilst also educating them on the various freshwater fish species currently inhabiting the waterways of Ireland. I have added matching colours to the pairs to simplify the game for the younger generation of player.
 
 ## UX
 ***
 
-My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty to enhance the gaming experience for each user. 
+My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs to simplify the game. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty to enhance the gaming experience for each user. 
 
-I have included multiple methods of contact into the footer of each page the hope of attracting some communication if there is an interest in the game and my coding skills showcase.
+I have included multiple methods of contact for myself into the footer of each page the hope of attracting some communication if there is an interest in the game and my coding skills showcase.
 
-The style and layout of the game is kept simple with 3 different main layout colours. This is to prevent distraction from the cards and the imagery on the cards.
+The style and layout of the game is kept simple with 3 different main layout colours. This is to prevent distraction from the cards and the imagery on the cards due to over-complicated colours or design.
 
 ## Features of the Website
 ***
 
 ### All Pages
 
-- **Page Styling**: I have styled each page in black, grey and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamer with too many colours.
-- **Horizontal Navigation Bar**: I chose the horizontal navigation option to allow the gamer easy control of the page at all times. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar to be a slightly darker grey than the page, so it blends in enough but also stands out when needed. The navigation links within allow the user to move between pages on the website.
-- **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top right of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
-- **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to make contact with me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
+- **Page Styling**: I have styled each page in black, grey, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours.
+- **Horizontal Navigation Bar**: I chose the horizontal navigation option to always allow the gamer simplified control of the page. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar to be a slightly darker grey than the page, so it blends in enough but also stands out when needed. The navigation links within allow the user to move between pages on the website. The navigation items also highlight when hovered over for added effect and ease.
+- **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top center of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
+- **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to contact me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
 
 ### index.html
-- This is very much a welcome screen for the user. The aim here is to welcome the visitor and provide a very brief description of who I am and where I am currently based. I also encourage the visitor to make contact if they are impressed by the setup of the website.
+- This is very much a welcome screen for the user. The aim here is to welcome the visitor and provide a very brief description of myself and what code was used to build the game. I detail the background of why the theme of fish was chosen and also the aim of the game. A final wish of good luck is to leave the visitor feeling positive before beginning the game.
 
-### about.html
-- This page provides a more in-depth guide to the visitor about who I am as a person and a bit about where I have come from in life and in my career. My aim is to get across that I am a very experienced and confident trouble-shooter through my current and previous employments and I thrive in challenging environments. I also want to make it clear how important life and family-life are to me and have added the photograph of me and my youngest daughter (Gráinne) to show a snippet of my family life. I explain how I am currently on my learning journey with Learning People and the Full stack developer course. Also, how I am thoroughly enjoying it and the many challenges that come with it. I have added an active link to the learningpeople.com/uk website to showcase the learning opportunities available there.
+### easy.html
+- This page is the starter level of the game and very much the reduced difficulty level. I have reduced the number of cards to 4 in total to simplify the process of finding matches. This will suit the younger player and provide a "warmup" level for all gamers. I have included the "Score" output at the bottom of the page to tally up how many clicks were made on cards before all matching pairs are found. This score is in red colour to make it stand out from the rest of the page. I have also included a "restart" button in blue at the bottom of the page. The function of this button is to reload the page and hide all the cards again to begin the game once more. This button also resets the score to 0. 
+The page has a title in black colour and underlined to remind the visitor of what the pictures of fish represent. 
+I have included the following functionality to the page:
+- cards increase in size when hovered over before being selected.
+- if incorrect pairs are chosen then keyframes animation is introduced to vibrate the cards and alert of the mismatch.
+- if a pair is mismatched the lower area of the card will also turn red in colour before they are rehidden behind the blue.
+- if a pair is matched correctly the lower card area exhibits a green colour and the cards remain in the "turned up" position until the game is over.
 
-### contact.html
-- This is a basic contact form made up of 4 fields. These are Name, Phone number, Email address and a box for a personal message. The submit button currently does not have any function linked to it, so this will be added when I progress my knowledge in the Full Stack course.
+### main.html
+- This page has the same game functionality, but with the number of cards increased to 16 to add a higher level of difficulty. The page has the same title, score output and restart button functionality. It also has the same functionality introduced when selecting cards as the easy.html page.
 
 ## Features to be implemented in future
 
-If I had more time to spend on the project and more experience with the various developer languages and tools I would like to add the following functionality:
+If I had more time to spend on the project and more experience with the various developer languages and tools, I would like to add the following functionality:
 
-- Add functionality to the navbar items, so they change colour when hovered over, plus remain a different colour when selected to let the user know without doubt which page they are currently on.
-- Add some animation to the background graphic, so it comes to life and draws the user in to the image and the theme.
-- Add functionality to the mouse, so it interacts with the background image when hovered over and moved around which will increase the UX for the visitor, enhance the visitor experience and extend the duration of the website visit.
-- Add functionality to the "Contact me" link at the bottom of the footer. I would make this subtly change colour or flash to entice the visitor to click the link and make contact.
-- I would like to add some sound to the page in the form of a background track, but also sounds when items are clicked, or pages are selected. This will improve the UX further and leave a lasting memory for the visitor.
-- In the about.html page I would change the single photo for an active slide show of photos of my life and images of my various projects completed to date. These would be active and selectable by the user to get more detail on particular projects.
-- In the contact.html I would add functionality to the "Submit" button. Currently this button is not active, so the data entered is not processed.
-    - In the contact.html I would also like a pop-up message when the Submit button is clicked to thank the visitor for their details and for making contact. Also, to ensure the user I would reply soon.
+- I would like to add some sound to the page in the form of a background track, but also sounds when cards are clicked, or pages are selected. These would include different sounds for when a correct pair or incorrect pair is matched. This will improve the UX further and leave a lasting memory for the visitor.
+- I would like to add the various cards to a json file and write some Javascript code to shuffle the cards after each time the restart button is pressed. This would add a further level of difficulty for the gamer and also increase the longevity of the game.
+- I would style the backsides of the cards more to look more like real playing cards and improve the visual aspect of the game.
+- I would also introduce animation to flip the cards over instead of using the transparency funtionality.
+- I would also add a further level of difficulty with even more cards.
+- I could also add a "high scores" page with cookie funtionality to store the best scores and names of the gamers to date. This would be done using the form input method.
+- I would also add a timer to start after the first click and stop after the last pair was matched.
 
 ## Technologies used
 ---
@@ -52,13 +57,14 @@ If I had more time to spend on the project and more experience with the various 
     - The website uses CSS3 to style the various elements and contents to improve the visual aspect and UX.
 - **Bootstrap V5.3**:
     - My project uses Bootstrap's easy to understand flexible grid system and CSS to add the responsiveness needed to automatically adjust the layout to different device sizes. 
-    - This was used for my vertical navigation bar, but also in the layout of each page to ensure it responded accordingly when switching between the various screen sizes and dimensions.
+    - This was used for my horizontal navigation bar, but also in the layout of each page to ensure it responded accordingly when switching between the various screen sizes and dimensions.
 - **Javascript**:
     - The website uses the Javascript which is in built to the Bootstrap components to add some functionality.
+    - The website also uses Javascript for the functionality of card pairing and how clicks on the various cards are handled.
 - **Font Awesome**:
     - Font Awesome was used for the active icons added within the footer.
-- **Cool text**: 
-    - Cooltext website was used to create the G.K. icon at the top of the navbar.
+- **Canva.com**:
+    - Was used to create and design the various card images.
 - **Git**:
     - I used Git as the version control system for adding and committing changes made to my project in Visual Studio Code.
 - **GitHub**:
@@ -68,43 +74,43 @@ If I had more time to spend on the project and more experience with the various 
 ## Testing
 ---
 
-- I tested the responsiveness of my website using Google Chrome's developer tools within the Inspect toolbar. This allowed me to display my website on the various different device types and screen sizes to ensure the responsive functionality was as it should be and layout was not corrupted.
-- I discovered even though the responsiveness passed all layout testing using the Inspect developer tool, when I viewed the website using Safari on an iphone the layout was not OK. Further troubleshooting was required to ensure the responsiveness was OK within Safari environment also.
+- I tested the responsiveness of my website using Google Chrome's developer tools within the Inspect toolbar. This allowed me to display my website on the various different device types and screen sizes to ensure the responsive functionality was as it should be, and layout was not corrupted. 
+- I also tested the game manually on an Iphone 8 and Iphone 12 phones as I was aware of some safari display corruption issues from my previous project.
+
 
 ### Issues encountered
 
-- **Vertical Navbar**: Choosing the vertical navbar was challenging as it split my pages vertically into columns which created some interesting responsive issues when switching between different device sizes. I learned a lot about Bootstrap functionality while troubleshooting these issues.
-- **Background Image**: Adding the background image added a level of difficulty to the website. Due to the fact it is so detailed and colourful, text on the page was difficult to read when over-layed on it. To get around this I added a mask around the text to make it standout from the background image.
-- **Contact From**: I had planned to split the form page into two columns with one column containing the form and the other containing a map with my address and contact phone number. When I implemented this, it looked too cluttered on the page, so I decided to simplify it to one column dedicated to the contact form. Visually I think this was the correct decision. Perhaps if the navbar was horizontally at the top of the page it would not be as cluttered with two columns.
+
 - **Responsiveness**: I spent a lot of time playing around with the various Bootstrap5.3 setups to make the pages responsive while maintaining the layout. This was a learning curve and I have gained a lot of experience through doing this.
-- **White space below footer**: When viewing the index.html and contact.html on desktop there was a large block of white space below the footer. This was due to not enough content in the main container to push the footer down. To resolve this I added padding-bottom to the background image.
+- **Stretching of footer**: When viewing footer on a laptop screen the footer was very stretched. I removed the CSS - min-height:100vh to resolve this issue.
 - **Time available**: This was my biggest issue encountered. I have a full-time job and three children under the age of seven, so finding time in the evenings to dedicate to the project was difficult. In the end it makes it more rewarding the challenge I have met and overcome to complete the project.
 
 ## Deployment
 ---
 
-I hosted my website on GitHub pages. In order to deploy my website, I used the following steps:
+I hosted my website on GitHub pages. To deploy my website, I used the following steps:
 
 1. Using Visual Studio Code Source Control tooling I "Initialized the Git Repository".
 2. Using Source Control Tooling within VS code I regularly staged and committed my coding changes to the main branch of Git repository on GitHub.
 
 ## Repository Link
 
-https://github.com/GarethKeys/Personal-Portfolio
+https://github.com/GarethKeys/Memory-Pairs-Game
 
 ## GitHub Pages live site link
 
-https://garethkeys.github.io/Personal-Portfolio/
+https://garethkeys.github.io/Memory-Pairs-Game/
 
 ## Credits
 ---
-- Navbar layout guidance was taken from YouTube - "a designer who codes" (https://www.youtube.com/watch?v=3GNBl-v-ZHI)
-- G.K. image icon was created using http://www.cooltext.com
-- http://stackoverflow.com website was used for guidance on Bootstrap.
-- http://mdbootstrap.com website was also used for guidance on Bootstrap and the footer design.
-- Contact form design ideas were taken from YouTube videos by Divinector - https://www.youtube.com/@Divinector.
-    - Also from https://getbootstrap.com website.
-- Background image was taken from http://pexels.com
+- Navbar layout guidance was taken from http://www.Getbootstrap.com webpage.
+- http://mdbootstrap.com website was also used for guidance on Bootstrap and the footer design. Footer design was copied from my previous project and only the CSS modified slightly to suit the new colours.
+- Card Javascript code guidance was taken from youtube page https://www.youtube.com/watch?v=B6aJpbX_IZU - Code Grind - "Creating a Memory Game using CSS and JavaScript!".
+- Score output functionality and Restart button ideas were taken from youtube page https://www.youtube.com/watch?v=xWdkt6KSirw - Javascript Academy - "Build Your Own Memory Card Game with HTML, CSS, and JavaScript".
+- Keyframe card shake animation guidance was taken from https://css-tricks.com/.
+
+
+
 
 
 
