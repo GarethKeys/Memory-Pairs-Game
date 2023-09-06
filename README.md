@@ -7,7 +7,7 @@ This is a game I have created to showcase the Frontend developer and Javascript 
 
 My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs to simplify the game. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty to enhance the gaming experience for each user. 
 
-I have included multiple methods of contact for myself into the footer of each page the hope of attracting some communication if there is an interest in the game and my coding skills showcase.
+I have included multiple methods of contact for myself into the footer of each page with the aim of attracting some communication due to an interest in the game and my coding skills showcase.
 
 The style and layout of the game is kept simple with 3 different main layout colours. This is to prevent distraction from the cards and the imagery on the cards due to over-complicated colours or design.
 
@@ -96,7 +96,7 @@ I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with t
 
 - **Responsiveness**: I spent a lot of time playing around with the various Bootstrap5.3 setups to make the pages responsive while maintaining the layout. This was a learning curve and I have gained a lot of experience through doing this.
 - **Stretching of footer**: When viewing footer on a laptop screen the footer was very stretched. I removed the CSS - min-height:100vh to resolve this issue.
-- **Time available**: This was my biggest issue encountered. I have a full-time job and three children under the age of seven, so finding time in the evenings to dedicate to the project was difficult. In the end it makes it more rewarding the challenge I have met and overcome to complete the project.
+- **Time available**: This was my biggest issue encountered. I have a full-time job and three children under the age of seven, so finding time in the evenings to dedicate to the project was difficult. In the end it makes it all the more rewarding to have met and overcome the challenges to complete the project.
 
 ## Deployment
 ---
