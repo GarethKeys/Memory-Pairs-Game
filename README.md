@@ -77,6 +77,19 @@ If I had more time to spend on the project and more experience with the various 
 - I tested the responsiveness of my website using Google Chrome's developer tools within the Inspect toolbar. This allowed me to display my website on the various different device types and screen sizes to ensure the responsive functionality was as it should be, and layout was not corrupted. 
 - I also tested the game manually on an Iphone 8 and Iphone 12 phones as I was aware of some safari display corruption issues from my previous project.
 
+I used the https://validator.w3.org/#validate_by_input program to check my 3 HTML files with the following corrections:
+- Moved the footer closing </div> to within the footer line 137.
+- Removed the spaces withing the "fish-image" names.
+- Corrected the extra speechmark " from line 100.
+- Line 101 "Element button must note be decendant of <a> element", so removed the <button></button> tags and verified functionality to be OK with bootstrap button definitions.
+- index.html line 51 closing p tag was <p/>, so corrected to </p>.
+- Added lang=en attribute to each html tag at beginning of each html file.
+
+I used the http://jigsaw.w3.org/css-validator/ to vaildate my 3 css files with the following corrections:
+- .navbar and .heading had extra commas after the san-serif in font-family declaration which needed to be removed.
+- withing the easy.css file p was double defined, so one was removed and functionailty checked to be OK.
+- All 3 .css files now return no errors.
+
 
 ### Issues encountered
 
