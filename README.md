@@ -41,11 +41,11 @@ I have included the following functionality to the page:
 If I had more time to spend on the project and more experience with the various developer languages and tools, I would like to add the following functionality:
 
 - I would like to add some sound to the page in the form of a background track, but also sounds when cards are clicked, or pages are selected. These would include different sounds for when a correct pair or incorrect pair is matched. This will improve the UX further and leave a lasting memory for the visitor.
-- I would like to add the various cards to a json file and write some Javascript code to shuffle the cards after each time the restart button is pressed. This would add a further level of difficulty for the gamer and also increase the longevity of the game.
+- I would like to add the various cards to a json file and write some Javascript code to shuffle the cards after each time the restart button is pressed. This would add a further level of difficulty for the gamer to increase the longevity of the game.
 - I would style the backsides of the cards more to look more like real playing cards and improve the visual aspect of the game.
-- I would also introduce animation to flip the cards over instead of using the transparency funtionality.
+- I would also introduce animation to flip the cards over instead of using the transparency functionality.
 - I would also add a further level of difficulty with even more cards.
-- I could also add a "high scores" page with cookie funtionality to store the best scores and names of the gamers to date. This would be done using the form input method.
+- I could also add a "high scores" page with cookie functionality to store the best scores and names of the gamers to date. This would be done using the form input method.
 - I would also add a timer to start after the first click and stop after the last pair was matched.
 
 ## Technologies used
@@ -74,20 +74,20 @@ If I had more time to spend on the project and more experience with the various 
 ## Testing
 ---
 
-- I tested the responsiveness of my website using Google Chrome's developer tools within the Inspect toolbar. This allowed me to display my website on the various different device types and screen sizes to ensure the responsive functionality was as it should be, and layout was not corrupted. 
-- I also tested the game manually on an Iphone 8 and Iphone 12 phones as I was aware of some safari display corruption issues from my previous project.
+- I tested the responsiveness of my website using Google Chrome's developer tools within the Inspect toolbar. This allowed me to display my website on the various device types and screen sizes to ensure the responsive functionality was as it should be, and layout was not corrupted. 
+- I also tested the game manually on an Iphone 8 and Iphone 12 phones as I was aware of some Safari display corruption issues from my previous project.
 
 I used the https://validator.w3.org/#validate_by_input program to check my 3 HTML files with the following corrections:
 - Moved the footer closing </div> to within the footer line 137.
 - Removed the spaces withing the "fish-image" names.
-- Corrected the extra speechmark " from line 100.
-- Line 101 "Element button must note be decendant of <a> element", so removed the <button></button> tags and verified functionality to be OK with bootstrap button definitions.
+- Corrected the extra speech mark " from line 100.
+- Line 101 "Element button must note be descendant of <a> element", so removed the <button></button> tags and verified functionality to be OK with bootstrap button definitions.
 - index.html line 51 closing p tag was <p/>, so corrected to </p>.
 - Added lang=en attribute to each html tag at beginning of each html file.
 
-I used the http://jigsaw.w3.org/css-validator/ to vaildate my 3 css files with the following corrections:
+I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with the following corrections:
 - .navbar and .heading had extra commas after the san-serif in font-family declaration which needed to be removed.
-- withing the easy.css file p was double defined, so one was removed and functionailty checked to be OK.
+- withing the easy.css file p was double defined, so one was removed and functionality checked to be OK.
 - All 3 .css files now return no errors.
 
 
