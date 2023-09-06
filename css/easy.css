@@ -13,7 +13,7 @@
 .navbar {
     text-align: center;
     color: rgb(68, 211, 221);
-    font-family: Arial, Helvetica, sans-serif, ;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
     font-size: 2rem;
     font-weight: 350; 
@@ -21,7 +21,7 @@
 
 .heading {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif, ;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     font-size: 3.5rem;
     font-weight: 500;
@@ -90,12 +90,7 @@
         transform: translate3d(4px, 0, 0);
       }  
 
-    p {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }}
-
+    }
     .actions {
         display: flex;
         justify-content:center;
@@ -114,3 +109,4 @@
         font-size: larger;
         text-decoration: underline;
     }
+    
