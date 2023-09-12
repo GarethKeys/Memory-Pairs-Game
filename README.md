@@ -87,7 +87,7 @@ I used the https://validator.w3.org/#validate_by_input program to check my 3 HTM
 
 I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with the following corrections:
 - .navbar and .heading had extra commas after the san-serif in font-family declaration which needed to be removed.
-- withing the easy.css file <p> tag was double defined, so one was removed, and functionality checked to be OK.
+- withing the easy.css file p tag was double defined, so one was removed, and functionality checked to be OK.
 - All 3 .css files now return no errors.
 
 
