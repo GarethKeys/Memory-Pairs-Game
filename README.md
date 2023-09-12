@@ -5,7 +5,7 @@ This is a game I have created to showcase the Frontend developer and Javascript 
 ## UX
 ***
 
-My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs to simplify the game. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty to enhance the gaming experience for each user. 
+My game is for all ages and genders to enjoy. I have allowed coloured pairs to be matched as well as the fish species pairs to simplify the game. These include pictures of the fish and the naming of the various species. The aim is to educate the gamer about the various fish species while also having some fun testing their memory. I have added a total score display as well as two different levels of difficulty ("tutorial" and "main game") to enhance the gaming experience for each user. 
 
 I have included multiple methods of contact for myself into the footer of each page with the aim of attracting some communication due to an interest in the game and my coding skills showcase.
 
@@ -16,8 +16,8 @@ The style and layout of the game is kept simple with 3 different main layout col
 
 ### All Pages
 
-- **Page Styling**: I have styled each page in black, grey, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours.
-- **Horizontal Navigation Bar**: I chose the horizontal navigation option to always allow the gamer simplified control of the page. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar to be a slightly darker grey than the page, so it blends in enough but also stands out when needed. The navigation links within allow the user to move between pages on the website. The navigation items also highlight when hovered over for added effect and ease.
+- **Page Styling**: I have styled each page in dark green, white, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours. I believe the white text against the dark green backdrop enables reading with ease. I have styled the footer in a slightly darker green to ensure it catches the eye if needed.
+- **Horizontal Navigation Bar**: I chose the horizontal navigation option to always allow the gamer simplified control of the page. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar with the white background, so it stands out and can be found easily when required by the user. The navigation links within allow the user to move between pages on the website. The navigation items also highlight when hovered over for added effect and ease.
 - **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top center of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
 - **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to contact me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
 
