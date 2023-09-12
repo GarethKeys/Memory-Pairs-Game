@@ -16,7 +16,7 @@ The style and layout of the game is kept simple with 3 different main layout col
 
 ### All Pages
 
-- **Page Styling**: I have styled each page in dark green, white, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours. I also chose these colours as a feel the fit with the theme of nature and fish. I believe the white text against the dark green backdrop enables reading with ease. I have styled the footer in a slightly darker green to ensure it catches the eye if needed.
+- **Page Styling**: I have styled each page in dark green, white, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours. I also chose these colours as I feel they fit with the theme of nature and fish. I believe the white text against the dark green backdrop enables reading with ease. I have styled the footer in a slightly darker green to ensure it catches the eye if needed.
 - **Horizontal Navigation Bar**: I chose the horizontal navigation option to always allow the gamer simplified control of the page. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar with the white background, so it stands out and can be found easily when required by the user. The navigation links within allow the user to move between pages on the website. The navigation items also highlight when hovered over for added effect and ease.
 - **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top center of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
 - **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to contact me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
@@ -82,7 +82,7 @@ I used the https://validator.w3.org/#validate_by_input program to check my 3 HTM
 - Removed the spaces withing the "fish-image" names.
 - Corrected the extra speech mark " from line 100.
 - Line 101 "Element button must note be descendant of <a> element", so removed the <button></button> tags and verified functionality to be OK with bootstrap button definitions.
-- index.html line 51 closing p tag was <p/>, so corrected to </p>.
+- index.html line 51 closing p tag had the forward slash incorrectly placed, so corrected it accordingly.
 - Added lang=en attribute to each html tag at beginning of each html file.
 
 I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with the following corrections:
