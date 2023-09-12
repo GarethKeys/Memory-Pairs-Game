@@ -16,7 +16,7 @@ The style and layout of the game is kept simple with 3 different main layout col
 
 ### All Pages
 
-- **Page Styling**: I have styled each page in dark green, white, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours. I believe the white text against the dark green backdrop enables reading with ease. I have styled the footer in a slightly darker green to ensure it catches the eye if needed.
+- **Page Styling**: I have styled each page in dark green, white, and light blue. I chose these colours as I feel they work well together to make the cards standout while also not oversaturating the gamers vision with too many colours. I also chose these colours as a feel the fit with the theme of nature and fish. I believe the white text against the dark green backdrop enables reading with ease. I have styled the footer in a slightly darker green to ensure it catches the eye if needed.
 - **Horizontal Navigation Bar**: I chose the horizontal navigation option to always allow the gamer simplified control of the page. The Navigation bar is kept centered on the page for easy accessibility while navigating the game. I have styled the Navbar with the white background, so it stands out and can be found easily when required by the user. The navigation links within allow the user to move between pages on the website. The navigation items also highlight when hovered over for added effect and ease.
 - **Collapsible Navbar**: On smaller devices below width 992px the navigation bar will collapse to a toggle button on the top center of the screen. This responsiveness allows the user to still have full access to the navbar on smaller devices.
 - **Social media links**: Incorporated into the footer are clickable icon links (from Font awesome) to contact me (phone/email) or view my various social media sites (LinkedIn, Github and Facebook). I also added a link to my Resume/C.V. for potential employers to have a browse.
@@ -24,9 +24,9 @@ The style and layout of the game is kept simple with 3 different main layout col
 ### index.html
 - This is very much a welcome screen for the user. The aim here is to welcome the visitor and provide a very brief description of myself and what code was used to build the game. I detail the background of why the theme of fish was chosen and also the aim of the game. A final wish of good luck is to leave the visitor feeling positive before beginning the game.
 
-### easy.html
-- This page is the starter level of the game and very much the reduced difficulty level. I have reduced the number of cards to 4 in total to simplify the process of finding matches. This will suit the younger player and provide a "warmup" level for all gamers. I have included the "Score" output at the bottom of the page to tally up how many clicks were made on cards before all matching pairs are found. This score is in red colour to make it stand out from the rest of the page. I have also included a "restart" button in blue at the bottom of the page. The function of this button is to reload the page and hide all the cards again to begin the game once more. This button also resets the score to 0. 
-The page has a title in black colour and underlined to remind the visitor of what the pictures of fish represent. 
+### tutorial.html
+- This page is the starter level of the game and very much the reduced difficulty level to teach the functionality. I have reduced the number of cards to 4 in total to simplify the process of finding matches. This will suit the younger player and provide a "warmup" level for all gamers. I have added a very brief description of how to play the game. I have included the "Score" output at the bottom of the page to tally up how many clicks were made on cards before all matching pairs are found. This score is in white colour to make it stand out from the rest of the page. I have also included a "restart" button in blue at the bottom of the page. The function of this button is to reload the page and hide all the cards again to begin the game once more. This button also resets the score to 0. 
+The page has a title in white colour and underlined to remind the visitor of what the pictures of fish represent. 
 I have included the following functionality to the page:
 - cards increase in size when hovered over before being selected.
 - if incorrect pairs are chosen then keyframes animation is introduced to vibrate the cards and alert of the mismatch.
@@ -34,7 +34,7 @@ I have included the following functionality to the page:
 - if a pair is matched correctly the lower card area exhibits a green colour and the cards remain in the "turned up" position until the game is over.
 
 ### main.html
-- This page has the same game functionality, but with the number of cards increased to 16 to add a higher level of difficulty. The page has the same title, score output and restart button functionality. It also has the same functionality introduced when selecting cards as the easy.html page.
+- This page has the same game functionality, but with the number of cards increased to 16 to add a higher level of difficulty. The page has the same title, score output and restart button functionality. It also has the same functionality introduced when selecting cards as the tutorial.html page.
 
 ## Features to be implemented in future
 
@@ -46,7 +46,7 @@ If I had more time to spend on the project and more experience with the various 
 - I would also introduce animation to flip the cards over instead of using the transparency functionality.
 - I would also add a further level of difficulty with even more cards.
 - I could also add a "high scores" page with cookie functionality to store the best scores and names of the gamers to date. This would be done using the form input method.
-- I would also add a timer to start after the first click and stop after the last pair was matched.
+- I would also add a timer to start after the first click and stop after the last pair was matched. This would add another element of challenge to the game.
 
 ## Technologies used
 ---
@@ -87,7 +87,7 @@ I used the https://validator.w3.org/#validate_by_input program to check my 3 HTM
 
 I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with the following corrections:
 - .navbar and .heading had extra commas after the san-serif in font-family declaration which needed to be removed.
-- withing the easy.css file p was double defined, so one was removed and functionality checked to be OK.
+- withing the easy.css file <p> tag was double defined, so one was removed, and functionality checked to be OK.
 - All 3 .css files now return no errors.
 
 
@@ -96,7 +96,8 @@ I used the http://jigsaw.w3.org/css-validator/ to validate my 3 css files with t
 
 - **Responsiveness**: I spent a lot of time playing around with the various Bootstrap5.3 setups to make the pages responsive while maintaining the layout. This was a learning curve and I have gained a lot of experience through doing this.
 - **Stretching of footer**: When viewing footer on a laptop screen the footer was very stretched. I removed the CSS - min-height:100vh to resolve this issue.
-- **Time available**: This was my biggest issue encountered. I have a full-time job and three children under the age of seven, so finding time in the evenings to dedicate to the project was difficult. In the end it makes it all the more rewarding to have met and overcome the challenges to complete the project.
+- **Time available**: This was my biggest issue encountered. I have a full-time job and three children under the age of seven, so finding time in the evenings to dedicate to the project was difficult. In the end it makes it all the more rewarding to have met and overcome the challenges required to complete the project.
+- **Colour of Layout**: I initially had the layout with a white background and bright blue text. This proved very difficult to read the text, so I had to redesign the colour layout. I wanted to keep the game pages colourful, so decided on the dark green with white text. I feel the green and blue fit the representation of nature and the fish theme well.
 
 ## Deployment
 ---
